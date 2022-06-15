@@ -1,0 +1,281 @@
+/* slider section css style */
+.about-slid{
+
+    background: linear-gradient(rgba(1,1,1, .8), rgba(1,1,1, .8)), url('./Image/bg-image-12.jpg') no-repeat center;
+    background-size: cover;
+
+}
+/* slider seciton css  */
+.about-slider-text h2 {
+    font-size: 62px;
+    color: #fff;
+    max-width: 99%;
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 13px;
+}
+
+/* company section css stle */
+.company-left h2 {
+    color: #fff6f6;
+    font-size: 29px;
+    font-weight: 700;
+}
+.company-right p {
+    color: #acacac;
+    font-size: 16px;
+}
+/* company logo */
+.company-logo{}
+.company-logo a{
+    display: block;
+}
+.company-logo img{
+    opacity: .7;
+}
+.company-logo img:hover{
+    opacity: 1;
+}
+
+/* about service section css style */
+.about-service{}
+.about-service-item {
+    background: #0f0f11;
+    padding: 30px 20px;
+    transition: .6s;
+    border-radius: 7px;
+}
+.about-service-item:hover{
+    transform: translateY(-9px);
+}
+.about-service-item span {
+    display: block;
+    font-size: 50px;
+    padding: 12px 0;
+}
+.about-service-item .serv-icon-1{
+    color: #059DFF;
+}
+.about-service-item .serv-icon-2{
+    color: #FB5343 ;
+}
+.about-service-item .serv-icon-3{
+    color:#6549D5 ;
+}
+
+.about-service-item a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    padding: 2px 0 15px 0;
+    transition: .4s;
+}
+.about-service-item a:hover{
+    color: #059DFF;
+}
+.about-service-item p {
+    color: #65676B;
+    font-size: 16px;
+    padding: 0px 26px;
+}
+/* progress section css style */
+.progress-section{}
+.progress-box {
+    background: #0f0f11;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+.progress-item{}
+.progress-item ul li h2{
+    position: relative;
+}
+.progress-item ul li h2::before {
+    content: "";
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    top: 49px;
+    left: 83px;
+    background: #036eb2;
+    border-radius: 50%;
+    border: 7px solid #059dff;
+}
+.progress-row{
+    position: relative;
+}
+.progress-row::before {
+    content: "";
+    height: 5px;
+    width: calc(100% - 224px);
+    position: absolute;
+    top: 61px;
+    left: 110px;
+    background: #059dff;
+}
+
+.progress-item ul{
+    padding: 0;
+}
+.progress-item ul li{
+    list-style: none;
+}
+.progress-item h2 {
+    color: #fff;
+    font-size: 22px;
+    padding: 10px 0;
+}
+.progress-item p {
+    color: #acacac;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4rem;
+    padding-top: 33px;
+}
+
+/* business secttion css style */
+.business-left{
+    position: relative;
+}
+.business-left span {
+    position: absolute;
+    top: 40%;
+    left: 41%;
+    z-index: 10;
+    color: #fff;
+    font-size: 25px;
+    height: 80px;
+    width: 80px;
+    background: linear-gradient(to left, #F34D5E 0%, #8623F7 100%);
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    transition: .4s;
+}
+.business-left span:hover{
+    background: linear-gradient(to left, #f75c6b 0%, #8939e6 100%);
+    box-shadow: 1px 1px 12px 0 #F34D5E;
+}
+.business-right{}
+.business-right h2 {
+    color: #fff;
+    font-size: 32px;
+    line-height: 1.4em;
+    padding-bottom: 19px;
+}
+.business-right h2 span {
+    color: #059dff;
+}
+.business-icon{}
+.business-icon span {
+    height: 30px;
+    width: 30px;
+    background: #059dff;
+    display: block;
+    text-align: center;
+    line-height: 31px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 17px;
+}
+.business-text{}
+.business-text h4 {
+    color: #fff;
+    font-size: 20px;
+}
+.business-text p {
+    color: #acacac;
+    font-size: 15px;
+    padding-top: 11px;
+}
+.business-right .default-btn {
+    margin-top: 28px;
+    padding: 14px 29px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+/* counter section  css style */
+.counter-section{}
+.counter-number{
+    position: relative;
+}
+.counter-number span {
+    position: absolute;
+    top: -8px;
+    left: 145px;
+    font-size: 40px;
+    color: #059dff;
+    font-weight: 700; 
+}
+.counter {
+    color: #059dff;
+    font-size: 40px;
+}
+.counter-box h3 {
+    color: #fff;
+    font-size: 19px;
+    position: relative;
+    top: 0;
+    left: 13px;
+}
+
+/* team-member section */
+.team-member{
+    position: relative;
+}
+.team-member:hover .team-bio{
+    opacity: 1;
+    visibility: visible;
+}
+.team-member img {
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgb(172 172 172 / 10%);
+}
+.team-bio {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(172, 172, 172, .11);
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    margin-left: 23px;
+    margin-bottom: 21px;
+    border-radius: 9px;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.team-bio h4{
+    color: #fff;
+    font-size: 17px;
+}
+.team-bio h5{
+    background: linear-gradient(to left, #F34D5E 0%, #8623F7 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+}
+.team-bio h6{
+    color: #acacac;
+    font-size: 13px;
+}
+
+/* default section css style */
+.default-section{
+    padding: 100px 0;
+}
+.default-left h3{
+    color: #fff;    
+    font-size: 23px;
+}
+.default-right p{
+    color: #acacac;
+    font-size: 18px;
+}
